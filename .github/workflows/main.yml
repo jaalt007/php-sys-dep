@@ -32,6 +32,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: |
-            jalt007/php-sys-dep:latest
-            ghcr.io/jalt007/php-sys-dep:latest
+          tags: ghcr.io/jalt007/php-sys-dep:latest
