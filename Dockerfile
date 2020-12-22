@@ -1,4 +1,4 @@
-FROM php:7.4-fpm-alpine AS system-setup
+FROM php:8.0.0-fpm-alpine AS system-setup
 
 RUN apk add --no-cache dcron busybox-suid libcap curl zip unzip git
 
